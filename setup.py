@@ -27,6 +27,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'bauru_pid.py = lognave_isaac.bauru_pid:main',
+            'omni_pid.py = lognave_isaac.omni_pid:main',
+            'cinematica.py = lognave_isaac.cinematica:main',
         ],
     },
 )
